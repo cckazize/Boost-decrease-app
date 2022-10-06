@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="Utf-8">
+    <meta lang="en">
+    <title>github example project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Counter Example with Javascript Increase and Decrease Buttons</h1>
+    <div id="container">
+        <input type="button" onclick="increase()" value="+" class="style" style="background-color:rgb(204, 161, 96);">
+        <input type="button" value="0" class="style" id="conclusion">
+        <input type="button" onclick="decrease()" value="-" class="style" style="background-color:rgb(223, 144, 91);">
+    </div>
+    <script>
+        function increase() {
+            var conclusion = document.getElementById("conclusion");
+            conclusion.value = Number(conclusion.value) + 1;
+
+        }
+        function decrease() {
+            var conclusion = document.getElementById("conclusion");
+            conclusion.value = Number(conclusion.value) - 1;
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>

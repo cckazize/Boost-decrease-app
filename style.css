@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(167, 164, 202)
+    ;
+}
+h1 {
+    font-family:cursive;
+    color: rgb(72, 30, 110);
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    width: 12rem;
+    height: 12rem;
+    font-size: 32px;
+    text-align: center;
+    border: none;
+    border-radius: .75rem;
+
+}
