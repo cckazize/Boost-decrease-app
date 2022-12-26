@@ -1,35 +1,20 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <meta charset="Utf-8">
-    <meta lang="en">
-    <title>github example project</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25.12.2022</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Counter Example with Javascript Increase and Decrease Buttons</h1>
-    <div id="container">
-        <input type="button" onclick="increase()" value="+" class="style" style="background-color:rgb(204, 161, 96);">
-        <input type="button" value="0" class="style" id="conclusion">
-        <input type="button" onclick="decrease()" value="-" class="style" style="background-color:rgb(223, 144, 91);">
-    </div>
-    <script>
-        function increase() {
-            var conclusion = document.getElementById("conclusion");
-            conclusion.value = Number(conclusion.value) + 1;
-
-        }
-        function decrease() {
-            var conclusion = document.getElementById("conclusion");
-            conclusion.value = Number(conclusion.value) - 1;
-        }
-
-
-
-
-    </script>
-
+ <div class="container">
+    <h1>Counter</h1>
+    <p id="value">0</p>
+    <button class="btn decrease">Decrease</button>
+    <button class="btn Reset">Reset</button>
+    <button class="btn increase">Increase</button>
+ </div>
+<script src="app.js"></script>
 </body>
-
 </html>
